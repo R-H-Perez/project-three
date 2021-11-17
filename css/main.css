@@ -52,6 +52,8 @@ h1 {
 
 p {
   margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
   width: 100%;
   max-width: 59rem;
   padding-top: 2rem;
@@ -85,6 +87,10 @@ footer span {
   padding: 1rem;
   position: absolute;
   cursor: crosshair;
+}
+
+a img {
+  max-width: 2rem;
 }
 
 .RightButton {
