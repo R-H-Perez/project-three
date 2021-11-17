@@ -1,3 +1,25 @@
+/* Adobe XD defaults.*/
+:root {
+  /* Colors: */
+  --black: #000000;
+  --red: #ff0000;
+  --white: #ffffff;
+
+  /* Font/text values */
+  --unnamed-font-family-franklin-gothic: Franklin Gothic;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-25: 25px;
+  --unnamed-font-size-30: 30px;
+  --unnamed-font-size-40: 40px;
+  --unnamed-font-size-60: 60px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-45: 45px;
+  --unnamed-line-spacing-60: 60px;
+  --unnamed-line-spacing-90: 90px;
+  --unnamed-line-spacing-37-5: 37.5px;
+}
+/* Offline font.*/
 @font-face {
   font-family: Franklin Gothic;
   src: url("../fonts/eot.eot");
