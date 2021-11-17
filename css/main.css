@@ -29,3 +29,39 @@
     url("../fonts/ttf.ttf") format("truetype"),
     url("../fonts/svg.svg#Franklin Gothic Medium V2") format("svg");
 }
+div {
+}
+
+div div {
+}
+
+footer span {
+  height: 1rem;
+  width: 1rem;
+  background-color: grey;
+  display: inline-block;
+  transition: blue;
+  margin: 0.5rem;
+  cursor: crosshair;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.LeftButton,
+.RightButton {
+  top: 50%;
+  max-width: auto;
+  padding: 1rem;
+  position: absolute;
+  cursor: crosshair;
+}
+
+.RightButton {
+  right: 0;
+}
+
+footer {
+  text-align: center;
+}
