@@ -29,6 +29,11 @@
     url("../fonts/ttf.ttf") format("truetype"),
     url("../fonts/svg.svg#Franklin Gothic Medium V2") format("svg");
 }
+
+body {
+  background-image: url(../Images/background.jpg);
+}
+
 div {
 }
 
