@@ -1,7 +1,9 @@
-/* Decent Defaults */
-
-img,
-video {
-  width: 100%;
-  height: auto;
+@font-face {
+  font-family: Franklin Gothic;
+  src: url("../fonts/eot.eot");
+  src: url("../fonts/eot.eot#iefix") format("embedded-opentype"),
+    url("../fonts/woff2.woff2") format("woff2"),
+    url("../fonts/woff.woff") format("woff"),
+    url("../fonts/ttf.ttf") format("truetype"),
+    url("../fonts/svg.svg#Franklin Gothic Medium V2") format("svg");
 }
