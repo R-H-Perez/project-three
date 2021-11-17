@@ -8,6 +8,7 @@
   /* Font/text values */
   --unnamed-font-family-franklin-gothic: Franklin Gothic;
   --unnamed-font-style-normal: normal;
+  --unnamed-font-style-italic: italic;
   --unnamed-font-weight-medium: medium;
   --unnamed-font-size-25: 1.5625rem;
   --unnamed-font-size-30: 1.875rem;
@@ -34,24 +35,47 @@ body {
   background-image: url(../Images/background.jpg);
 }
 
-div {
+h1 {
+  padding-top: 6rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 59rem;
+  text-align: center;
+  font-family: var(--unnamed-font-family-franklin-gothic);
+  font-style: var(--unnamed-font-style-italic);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-60);
+  line-height: var(--unnamed-line-spacing-90);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white);
 }
 
-div div {
+p {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 59rem;
+  padding-top: 2rem;
+  font-family: var(--unnamed-font-family-franklin-gothic);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-30);
+  line-height: var(--unnamed-line-spacing-45);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white);
 }
 
 footer span {
   height: 1rem;
   width: 1rem;
-  background-color: grey;
+  background-color: var(--white);
   display: inline-block;
-  transition: blue;
+  transition: var(--red);
   margin: 0.5rem;
   cursor: crosshair;
 }
 
 .selected {
-  background-color: blue;
+  background-color: var(--red);
 }
 
 .LeftButton,
@@ -68,5 +92,6 @@ footer span {
 }
 
 footer {
+  padding-top: 1rem;
   text-align: center;
 }
