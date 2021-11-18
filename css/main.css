@@ -47,6 +47,7 @@ button {
 }
 
 aside {
+  z-index: 3;
   display: none;
   background: rgba(255, 0, 0, 0.5);
   position: fixed;
@@ -103,6 +104,7 @@ p {
 }
 
 div div div {
+  z-index: 1;
   padding-right: 2rem;
   padding-left: 2rem;
   display: flex;
@@ -207,6 +209,7 @@ footer span {
 
 .LeftButton,
 .RightButton {
+  z-index: 2;
   display: block;
   background-color: rgba(255, 0, 0, 0.5);
   top: 50%;
