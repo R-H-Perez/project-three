@@ -39,3 +39,18 @@ document.querySelector(".LeftButton").addEventListener("click", () => {
 document.querySelector(".RightButton").addEventListener("click", () => {
   changeSections(1);
 });
+
+// Get
+// button
+let button = document.querySelector("button");
+// aside
+let aside = document.querySelector("aside");
+
+// Behavior
+function toggleModal() {
+  aside.classList.toggle("active");
+}
+
+// Wire
+button.addEventListener("click", toggleModal);
+aside.addEventListener("click", toggleModal);
