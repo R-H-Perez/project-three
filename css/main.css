@@ -35,6 +35,27 @@ body {
   background-image: url(../Images/background.jpg);
 }
 
+aside {
+  display: none;
+  background: black;
+  position: fixed;
+  inset: 0;
+}
+
+aside > div {
+  background: white;
+  max-width: 75ch;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+aside.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   padding-top: 2rem;
   margin: 0 auto;
