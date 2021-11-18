@@ -66,6 +66,43 @@ p {
   color: var(--white);
 }
 
+div div div {
+  display: flex;
+  justify-content: center;
+}
+
+div div div aside {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Image_Back {
+  position: relative;
+  max-width: 50rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 2rem var(--red);
+}
+
+#Cassette_Front {
+  position: absolute;
+  max-width: 50rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 footer span {
   height: 1rem;
   width: 1rem;
@@ -82,10 +119,12 @@ footer span {
 
 .LeftButton,
 .RightButton {
+  display: block;
+  background-color: rgba(255, 0, 0, 0.5);
   top: 50%;
   max-width: auto;
   padding: 1rem;
-  position: absolute;
+  position: fixed;
   cursor: crosshair;
 }
 
@@ -99,5 +138,6 @@ a img {
 
 footer {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
