@@ -37,17 +37,16 @@ body {
 
 aside {
   display: none;
-  background: black;
+  background: rgba(255, 0, 0, 0.5);
   position: fixed;
   inset: 0;
 }
 
 aside > div {
-  background: white;
-  max-width: 75ch;
+  background: var(--black);
+  max-width: 59rem;
   margin: 1rem;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 aside.active {
@@ -149,8 +148,8 @@ div div div article {
   position: absolute;
   max-width: 50rem;
   top: 0;
-  left: 0;
   width: 100%;
+  left: 0;
   animation: rotation 2s infinite linear;
 }
 @keyframes rotation {
