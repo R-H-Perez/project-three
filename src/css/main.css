@@ -35,6 +35,17 @@ body {
   background-image: url(../Images/background.jpg);
 }
 
+button {
+  position: fixed;
+  padding: 1rem;
+  overflow: hidden;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: crosshair;
+}
+
 aside {
   display: none;
   background: rgba(255, 0, 0, 0.5);
