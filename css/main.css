@@ -35,6 +35,16 @@ body {
   background-image: url(../Images/background.jpg);
 }
 
+#Button_Center {
+}
+@media (max-width: 70rem) {
+  #Button_Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 button {
   z-index: 3;
   position: fixed;
@@ -49,9 +59,14 @@ button {
 }
 
 button img {
-  max-width: 5rem;
+  max-width: 7rem;
   background-color: var(--red);
   padding: 1rem;
+}
+@media (max-width: 70rem) {
+  button img {
+    max-width: 5.7rem;
+  }
 }
 
 aside {
@@ -66,13 +81,17 @@ aside > div {
   background: var(--black);
   max-width: 59rem;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 aside.active {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+div a {
+  color: var(--red);
 }
 
 h1 {
@@ -88,6 +107,12 @@ h1 {
   line-height: var(--unnamed-line-spacing-90);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white);
+}
+@media (max-width: 70rem) {
+  h1 {
+    font-size: var(--unnamed-font-size-40);
+    line-height: var(--unnamed-line-spacing-60);
+  }
 }
 
 #First_Header {
@@ -109,6 +134,13 @@ p {
   line-height: var(--unnamed-line-spacing-45);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--white);
+}
+@media (max-width: 70rem) {
+  p {
+    font-size: var(--unnamed-font-size-25);
+    line-height: var(--unnamed-line-spacing-37-5);
+    max-width: 50rem;
+  }
 }
 
 div div div {
@@ -226,15 +258,26 @@ footer span {
   z-index: 2;
   display: block;
   background-color: var(--red);
-  top: 50%;
+  top: 35%;
   max-width: auto;
   padding: 1rem;
   position: fixed;
   cursor: crosshair;
 }
+@media (max-width: 70rem) {
+  .LeftButton,
+  .RightButton {
+    top: 90%;
+  }
+}
 
 a img {
-  max-width: 2rem;
+  max-width: 4.8rem;
+}
+@media (max-width: 70rem) {
+  a img {
+    max-width: 2rem;
+  }
 }
 
 .RightButton {
@@ -244,4 +287,9 @@ a img {
 footer {
   padding-bottom: 2rem;
   text-align: center;
+}
+@media (max-width: 70rem) {
+  footer {
+    padding-bottom: 8rem;
+  }
 }
