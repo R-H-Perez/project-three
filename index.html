@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/main.js" defer></script>
+    <link rel="icon" href="./Images/favicon.png" />
     <title>Music Always Spins | Richard Perez</title>
   </head>
   <body>
     <!-- Div used to center the button. -->
     <div id="Button_Center">
       <!-- Button used to toggle the modal. -->
-      <button><img src="./Images/Pause.png" /></button>
+      <button>
+        <img src="./Images/Pause.png" alt="Modal Button" />
+      </button>
     </div>
+
     <!-- The model itself - the background -->
     <aside>
       <!-- The model itself - the outer page with text -->
@@ -32,7 +36,11 @@
         <h1 id="First_Header">♪ Music Always Spins</h1>
         <!-- Article is used to fix padding. -->
         <article class="Padding_Fixer">
-          <img id="Regular_Picture" src="./Images/Main_Photo.jpg" />
+          <img
+            id="Regular_Picture"
+            src="./Images/Main_Photo.jpg"
+            alt="An image showing a record, cassette, and CD of The Yardbirds Greatest Hits: Volume One."
+          />
         </article>
         <p>
           The history of the most important music formats across centuries, how
@@ -56,10 +64,15 @@
         <div>
           <!-- Article is used to overlay both images on top of each other. -->
           <article>
-            <img id="Cylinder_Back" src="./Images/Cylinder_Back.jpg" />
+            <img
+              id="Cylinder_Back"
+              src="./Images/Cylinder_Back.jpg"
+              alt="Back layer for the cross section of a phonographic cylinder spinning."
+            />
             <img
               id="Cylinder_Front"
               src="./Images/Cylinder_Front.png"
+              alt="Front layer for the cross section of a phonographic cylinder spinning."
               onclick="playAudio('./Sound Effects/Cylinder.mp3')"
             />
           </article>
@@ -70,6 +83,7 @@
           <img
             id="Cylinder_Second_Picture"
             src="./Images/Cylinder_Second_Angle.jpg"
+            alt="Second angle of the phonographic cylinder."
           />
         </article>
         <p>
@@ -99,10 +113,15 @@
         <div>
           <!-- Article is used to overlay both images on top of each other. -->
           <article>
-            <img id="Vinyl_Back" src="./Images/Vinyl_Back.jpg" />
+            <img
+              id="Vinyl_Back"
+              src="./Images/Vinyl_Back.jpg"
+              alt="Back layer for the vinyl record spinning on a turntable."
+            />
             <img
               id="Vinyl_Front"
               src="./Images/Vinyl_Front.png"
+              alt="Front layer for the vinyl record spinning on a turntable."
               onclick="playAudio('./Sound Effects/Vinyl.mp3')"
             />
           </article>
@@ -134,10 +153,15 @@
         <div>
           <!-- Article is used to overlay both images on top of each other. -->
           <article>
-            <img id="Cassette_Back" src="./Images/Cassette_Back.jpg" />
+            <img
+              id="Cassette_Back"
+              src="./Images/Cassette_Back.jpg"
+              alt="Back layer for the casette tape roller spinning inside the deck."
+            />
             <img
               id="Cassette_Front"
               src="./Images/Cassette_Front.png"
+              alt="Front layer for the casette tape roller spinning inside the deck."
               onclick="playAudio('./Sound Effects/Cassette.mp3')"
             />
           </article>
@@ -171,10 +195,15 @@
         <div>
           <!-- Article is used to overlay both images on top of each other. -->
           <article>
-            <img id="CD_Back" src="./Images/CD_Back.jpg" />
+            <img
+              id="CD_Back"
+              src="./Images/CD_Back.jpg"
+              alt="Back layer for the CD spinning inside a player."
+            />
             <img
               id="CD_Front"
               src="./Images/CD_Front.png"
+              alt="Front layer for the CD spinning inside a player."
               onclick="playAudio('./Sound Effects/CD.mp3')"
             />
           </article>
@@ -204,10 +233,15 @@
         <div>
           <!-- Article is used to overlay both images on top of each other. -->
           <article>
-            <img id="Streaming_Back" src="./Images/Streaming_Back.jpg" />
+            <img
+              id="Streaming_Back"
+              src="./Images/Streaming_Back.jpg"
+              alt="Back layer for the loading circle spinning in the phone."
+            />
             <img
               id="Streaming_Front"
               src="./Images/Streaming_Front.png"
+              alt="Front layer for the loading circle spinning in the phone."
               onclick="playAudio('./Sound Effects/Streaming.mp3')"
             />
           </article>
@@ -221,8 +255,12 @@
       </div>
 
       <!-- These link-classes and images are used to create both left and right buttons -->
-      <a class="LeftButton"><img src="./Images/Left_Button.png" /></a>
-      <a class="RightButton"><img src="./Images/Right_Button.png" /></a>
+      <a class="LeftButton">
+        <img src="./Images/Left_Button.png" alt="Left Button" />
+      </a>
+      <a class="RightButton">
+        <img src="./Images/Right_Button.png" alt="Left Button" />
+      </a>
     </div>
 
     <!-- This footer creates the colored dots as a user goes through the site. -->
