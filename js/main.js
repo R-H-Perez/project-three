@@ -63,3 +63,7 @@ function toggleModal() {
 // Wire
 button.addEventListener("click", toggleModal);
 aside.addEventListener("click", toggleModal);
+
+function playAudio(url) {
+  new Audio(url).play();
+}
