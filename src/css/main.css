@@ -269,8 +269,8 @@ footer span {
 }
 @media (max-width: 70rem) {
   footer span {
-    height: 1rem;
-    width: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
 
