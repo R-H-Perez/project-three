@@ -260,13 +260,18 @@ div div div article {
 
 /* CSS for the dots. */
 footer span {
-  height: 1rem;
-  width: 1rem;
+  height: 2rem;
+  width: 2rem;
   background-color: var(--white);
   display: inline-block;
   transition: var(--red);
   margin: 0.5rem;
-  cursor: crosshair;
+}
+@media (max-width: 70rem) {
+  footer span {
+    height: 1rem;
+    width: 1rem;
+  }
 }
 
 /* CSS for the current-page-color fo the dots. */
