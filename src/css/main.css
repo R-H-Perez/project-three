@@ -36,7 +36,7 @@ body {
   background-image: url(../Images/background.jpg);
 }
 
-/* CSS to center the modal button, along with media inquiries to center the button. */
+/* CSS to center the modal button, along with media inquiries */
 #Button_Center {
 }
 @media (max-width: 70rem) {
