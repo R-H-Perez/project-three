@@ -22,9 +22,6 @@ document.querySelector(".RightButton").addEventListener("click", () => {
 function changeSections(i) {
   showSections((sectionIndex += i));
 }
-function currentSection(i) {
-  showSections((sectionIndex = i));
-}
 
 // Whatever the section index is set to, based on the slide that must be changed upon click, is sent to the showSections function.
 showSections(sectionIndex);
