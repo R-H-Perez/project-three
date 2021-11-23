@@ -21,11 +21,13 @@ document.querySelector(".RightButton").addEventListener("click", () => {
 // This function changes the value on the section index, based on which button you clicked on.
 function changeSections(i) {
   showSections((sectionIndex += i));
+  window.scrollTo(0, 0);
 }
 
 // This function syncs the value on the dots to the same as the section index, to allow slide-changing functionality to them.
 function currentSection(i) {
   showSections((sectionIndex = i));
+  window.scrollTo(0, 0);
 }
 
 // Whatever the section index is set to, based on the slide that must be changed upon click, is sent to the showSections function.
