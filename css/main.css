@@ -33,7 +33,7 @@
 
 /* Background Image is attatched to the body. */
 body {
-  background-image: url(../Images/background.jpg);
+  background-image: url(../images/background.jpg);
 }
 
 /* CSS to center the modal button, along with media inquiries */
