@@ -18,13 +18,13 @@ document.querySelector(".RightButton").addEventListener("click", () => {
   changeSections(1);
 });
 
-// This function changes the value on the section index, based on which button you clicked on.
+// This function changes the value on the section index, based on which button you clicked on. The function also resets the scroll value to 0.
 function changeSections(i) {
   showSections((sectionIndex += i));
   window.scrollTo(0, 0);
 }
 
-// This function syncs the value on the dots to the same as the section index, to allow slide-changing functionality to them.
+// This function syncs the value on the dots to the same as the section index, to allow slide-changing functionality to them. Like before, the function resets the scroll value to 0.
 function currentSection(i) {
   showSections((sectionIndex = i));
   window.scrollTo(0, 0);
