@@ -18,9 +18,14 @@ document.querySelector(".RightButton").addEventListener("click", () => {
   changeSections(1);
 });
 
-// These functions change the value on the section index, based on which button you clicked on.
+// This function changes the value on the section index, based on which button you clicked on.
 function changeSections(i) {
   showSections((sectionIndex += i));
+}
+
+// This function syncs the value on the dots to the same as the section index, to allow slide-changing functionality to them.
+function currentSection(i) {
+  showSections((sectionIndex = i));
 }
 
 // Whatever the section index is set to, based on the slide that must be changed upon click, is sent to the showSections function.
