@@ -266,6 +266,7 @@ footer span {
   display: inline-block;
   transition: var(--red);
   margin: 0.5rem;
+  cursor: crosshair;
 }
 @media (max-width: 70rem) {
   footer span {
